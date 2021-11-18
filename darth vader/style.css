@@ -1,0 +1,101 @@
+
+.hide2{
+
+    opacity: 0;
+  
+  }
+  
+  .time{
+    transition: all 5s ease;
+  }
+
+  .vader{  
+    
+      display: flex;
+      
+      margin-top: 100px;
+      margin-left: 100px;
+      
+
+    
+  }
+
+ 
+
+  body{
+      background-color: black;
+      height: 2000px;
+      width: auto;
+  }
+
+  h1{  
+      color: white;
+
+      
+
+
+      
+
+
+           
+      
+  }
+
+  
+
+  .red{
+    
+    height: 560px;
+    width: 10px;
+    background-color: red;
+    border-radius: 200px;
+    margin-left: 80px;
+    transform: rotate(-15deg);
+
+    
+
+    
+    
+  }
+
+  .white{
+      height: 480px;
+      width:4px ;
+      background-color: white;
+      
+      margin-top: 3px;
+      border-radius: 100px;
+      margin-left: 3px;
+      
+      
+
+  }
+
+  .sidious{display: flex;
+      height: 500px;
+      width: auto;
+      margin-top: 250px;
+      
+
+  }
+
+  .w{
+      width: 750px;
+      height: 400px;
+      background-color: white;
+      position: relative;
+      top: 15px;
+      left: 200px;
+      
+      
+      
+       
+  } 
+  .box{position: absolute;
+    zoom: 0.6;
+    top: 25px;
+    left: 10px;
+    
+  }
+
+  
