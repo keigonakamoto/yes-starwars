@@ -14,7 +14,7 @@
       display: flex;
       
       margin-top: 100px;
-      margin-left: 100px;
+      
       
 
     
@@ -49,8 +49,8 @@
     width: 10px;
     background-color: red;
     border-radius: 200px;
-    margin-left: 80px;
-    transform: rotate(-15deg);
+    
+    /* transform: rotate(-15deg); */
 
     
 
@@ -65,7 +65,7 @@
       
       margin-top: 3px;
       border-radius: 100px;
-      margin-left: 3px;
+      
       
       
 
@@ -98,4 +98,11 @@
     
   }
 
-  
+  .text{
+
+    zoom: 2;
+    
+  }
+  button{
+    zoom: 2;
+  }
