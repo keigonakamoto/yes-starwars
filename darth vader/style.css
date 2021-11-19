@@ -16,6 +16,7 @@
       margin-top: 100px;
       
       
+      
 
     
   }
@@ -24,12 +25,13 @@
 
   body{
       background-color: black;
-      height: 2000px;
+      height: 1200px;
       width: auto;
   }
 
   h1{  
       color: white;
+      margin-left: 50px;
 
       
 
@@ -45,26 +47,33 @@
 
   .red{
     
-    height: 560px;
+    height: 650px;
     width: 10px;
     background-color: red;
     border-radius: 200px;
     
-    /* transform: rotate(-15deg); */
+    transform: rotate(-15deg);
+    
+   
 
     
+
+    margin-left: 90px;
+
 
     
     
   }
 
   .white{
-      height: 480px;
+      height: 570px;
       width:4px ;
       background-color: white;
       
       margin-top: 3px;
       border-radius: 100px;
+      margin-left: 2.5px;
+      
       
       
       
@@ -94,13 +103,14 @@
   .box{position: absolute;
     zoom: 0.6;
     top: 25px;
-    left: 10px;
+    
     
   }
 
   .text{
 
-    zoom: 2;
+    zoom: 1.5;
+    margin-left: 50px;
     
   }
   button{
