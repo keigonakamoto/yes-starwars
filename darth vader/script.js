@@ -1,21 +1,40 @@
-
-
 $(function() {
 
-    $(window).on('scroll', function() {
-      // idがq-11の要素の画面最上部からの距離を取得
-      let s1 = $('#s1').offset().top;
-  
-      // 画面の高さ
-      let wh = $(window).height();
-  
-      // $(window).scrollTop()は現在のスクロール位置
-      if (s1 <= $(window).scrollTop() + wh) {
+  $(window).on('scroll', function() {
+
+    let s1 = $('#s1').offset().top;
+    let wh = $(window).height();
+
+    if (s1 <= $(window).scrollTop() + wh){
         $('.vader').removeClass('hide2');
-      } else {
+      }else {
         $('.vader').addClass('hide2');
-      }
+    }
       
-    })
+  })
+
+  $.ajax({
+    url: 'https://yesno.wtf/api', //アクセスするURL
+    type: 'get',　　 //post or get
+    cache: false,        //cacheを使うか使わないかを設定
+    dataType:'json',     //data type script・xmlDocument・jsonなど
+  })
+
+  .done(function(response) { 
+    answer = response.answer;
+  })
+  .fail(function(xhr) {  
+    console.log(xhr);
+  })
+  .always(function(xhr, msg) { 
+ });   
+
+  $('.cp_iptxt').on("click",function(){
+    $("label").fadeOut();
+  })
+  $('.js-btn').on("click",function(){
+    $(".result").text(answer);
+    
+  });
     
 })
